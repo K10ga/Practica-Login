@@ -56,17 +56,4 @@ img{
 @media screen and (min-width: 1024px) {
   body { font-size: 18px; }
 }
-#caja{
-  width: 300px;
-  height: 300px;
-  color: white;
-  background-color: peru;
-   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto; 
-  
-}
-#caja:hover{
-  background-color: lightblue;   
-}
+

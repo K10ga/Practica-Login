@@ -1,25 +1,24 @@
 .login-container {
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; 
-  background-color: #242424; 
+  min-height: 100vh;
+  background-color: #242424;
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
 }
 
-
 .login-container form {
   display: flex;
   flex-direction: column;
-  gap: 15px; 
-  background-color: #aea9f4; 
+  gap: 15px;
+  background-color: #aea9f4;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   width: 100%;
-  max-width: 320px; 
+  max-width: 320px;
 }
 
 .login-container input {

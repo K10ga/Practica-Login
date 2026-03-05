@@ -10,10 +10,12 @@ export default function Dashboard({ users, onLogout }) {
   }));
 
   return (
-    <div className="page">
-      <h1>Panel de administrador</h1>
-      <Table headers={headers} data={data} />
-      <Button onClick={onLogout}>Cerrar sesión</Button>
-    </div>
+      <div className="dashboard-container">
+        <div className="page">
+          <h1>Panel de administrador</h1>
+          <Table headers={headers} data={data} />
+          <Button onClick={onLogout}>Cerrar sesión</Button>
+        </div>
+      </div>
   );
 }

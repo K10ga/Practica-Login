@@ -2,6 +2,7 @@ import "./components-styles.css";
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { useState } from "react";
 
+
 import Home from "./page/Home";
 import Login from "./page/Login";
 import Dashboard from "./page/Dashboard";
@@ -53,7 +54,7 @@ function App() {
           path="/dashboard"
           element={
             currentUser?.role === 'admin' ? (
-              <Dashboard users={users} />
+              <Dashboard users={users} onLogout={logout} />
             ) : (
               <Navigate to="/profile" />
             )
