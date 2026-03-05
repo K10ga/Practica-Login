@@ -1,0 +1,29 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff; 
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.homepage h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  margin-top: 0;
+  color: #ffffff;
+  letter-spacing: 2px; 
+}
+
+.homepage p {
+  font-size: 1.2rem;
+  color: #aaaaaa; 
+  max-width: 500px; 
+  line-height: 1.5;
+}

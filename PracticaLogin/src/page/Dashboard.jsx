@@ -1,5 +1,6 @@
 import Table from '../components/Table';
 import Button from '../components/Button';
+import '../assets/estilodashboard.css';
 export default function Dashboard({ users, onLogout }) {
   const headers = ['Usuario', 'Nombre', 'Rol'];
   const data = users.map(u => ({
