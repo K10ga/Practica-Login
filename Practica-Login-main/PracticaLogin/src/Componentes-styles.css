@@ -1,0 +1,23 @@
+.button-primary{
+    background-color: pink;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    min-width: 50px;
+    cursor: pointer;
+}
+.button-primary:hover{
+    background-color: pink;
+}
+.button.secundary{
+    background-color: rgb(122, 111, 113);
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    min-width: 50px;
+    cursor: pointer;
+}
